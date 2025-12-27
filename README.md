@@ -1,39 +1,29 @@
-# Pepsi-Merchandising-Operations-Automation
+# Pepsi Sales & Operations Automation
 
 ## Overview
-This project focused on designing and implementing a **fully automated data pipeline** to centralize, clean, and analyze Pepsi's sales data. The goal was to reduce manual effort, improve data accuracy, and provide real-time insights to support decision-making across the organization.
+Inspired by modern data pipelines, this project centralized Pepsi’s sales and operational data into a single SQL database. The goal was to reduce manual effort, improve data accuracy, and provide real-time insights to support decision-making across the organization.
 
-## System Design
-- Built a **Python-based ingestion pipeline** to automatically collect sales submissions from multiple sources.
-- Implemented a **data cleaning workflow**, including:
-  - Detection and correction of SKU pricing and reporting errors
-  - Automated validation at the source to prevent manual mistakes
-- Centralized all cleaned data into a **single SQL database** for streamlined access and querying.
+## Dashboard & Analytics
+The centralized data enabled the development of a **Power BI dashboard** to visualize sales performance from store-level to regional insights. Teams could monitor promotions and track KPIs more efficiently, gaining faster and actionable insights.
 
-## Analytics & Reporting
-- Developed **Power BI dashboards** to visualize store-level to regional sales performance.
-- Built **R-based reporting pipelines** to generate automated PowerPoint reports directly from the database.
-- Consolidated multiple data sources to track key metrics in real-time, enabling faster and more informed decisions.
+## Field Operations
+To support field teams, a **Streamlit app** was deployed for interactive store insights, allowing real-time monitoring and operational visualization in the field.
 
-## Operational Tools
-- Created a **Streamlit field application** to standardize and visualize store-level operations interactively.
-- Supported internal teams with tools for data entry, monitoring, and reporting.
+## Reporting
+Reporting was enhanced using **R-based pipelines**, which generated automated reports directly from the database, reducing manual work and errors.
 
 ## Innovation
-- Implemented a **YOLO-based computer vision model** to detect SKU availability from cooler images, improving inventory monitoring and operational insights.
+An **NLP-based workflow** was implemented to detect and correct SKU pricing and reporting errors, improving data accuracy. The project also explored modern analytics techniques to optimize operational monitoring.
 
 ## Impact
-- Delivered a **fully automated analytics ecosystem** that reduced manual reporting, improved data accuracy, and provided consistent, decision-ready insights across Pepsi's operations.
-- The system enabled real-time monitoring of sales promotions and operational KPIs, improving response times and strategic planning.
+The project delivered an **automated analytics ecosystem** that reduced manual effort, improved data accuracy, and provided consistent, decision-ready insights across Pepsi’s operations.
 
 ## Technologies Used
-- **Python** – data ingestion, cleaning, and processing
-- **SQL** – centralized database and queries
-- **Power BI** – dashboards and KPI visualization
-- **R** – automated reporting pipelines
-- **Streamlit** – field operations app
-- **YOLO (Computer Vision)** – SKU detection
+- **Python** – data ingestion, cleaning, and processing  
+- **SQL** – centralized database and queries  
+- **Power BI** – dashboards and KPI visualization  
+- **R** – automated reporting pipelines  
+- **Streamlit** – interactive field operations app  
+- **NLP** – SKU validation and error detection  
 
 ---
-
-_For detailed scripts, examples, and implementation notes, check the [GitHub repository](#)._
